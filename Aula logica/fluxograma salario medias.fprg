@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gilbe"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-02 01:59:46 "/>
+        <attribute name="created" value="Z2lsYmU7TEVOT1ZPOzIwMjEtMDktMDI7IjAxOjI4OjM3ICI7MjE3NA=="/>
+        <attribute name="edited" value="Z2lsYmU7TEVOT1ZPOzIwMjEtMDktMDI7IjAxOjU5OjQ2ICI7MTsyMjg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;= 5.000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; cumpriu sua meta, abonos de 10% &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente voc&#234; n&#227;o cumpriu a meta e vai receber apenas 2% de abonos. &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
