@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-style: border-box;
+}
+
+.corpo{
+    color:#ffff;
+   text-align: center;
+   background-color: black;
+   font-size: 80px;
+   text-decoration: underline;
+   height: 97vh;
+   width: 95vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.botao{
+border-radius: 10px;   
+background-color: green;
+Color:#ffff;
+width: 100px;
+position: absolute;
+top: 10px;
+left: 10px;
+
+}
