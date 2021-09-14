@@ -29,7 +29,7 @@ function criarCobrinha() {
     }
 }
 function drawFood(){
-    context.fillStyle = "pink";
+    context.fillStyle = "#088A08";
     context.fillRect(food.x, food.y, box, box);
 }
     document.addEventListener('keydown', update);
